@@ -16,6 +16,8 @@ steps:
       - --security-level=secure-always
       - --ingress-settings=all
       - --no-allow-unauthenticated
-      - --service-account=helllo@yassine-337812.iam.gserviceaccount.com
+      - --service-account=yassine-337812@appspot.gserviceaccount.com
+      
+logsBucket: 'gs://mylogsbucket'
 options:
   logging: GCS_ONLY
