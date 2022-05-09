@@ -19,4 +19,4 @@ steps:
       - --service-account=helllo@yassine-337812.iam.gserviceaccount.com
 logsBucket: 'gs://mylogsbucket'
 options:
-  logging: CLOUD_LOGGING_ONLY
+  logging: GCS_ONLY
