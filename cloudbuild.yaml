@@ -18,5 +18,5 @@ steps:
       - --no-allow-unauthenticated
       - --service-account=helllo@yassine-337812.iam.gserviceaccount.com
       
-logsBucket: 'gs://mylogsbucket'
+
 
