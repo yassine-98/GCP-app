@@ -4,7 +4,7 @@ steps:
       - gcloud
       - functions
       - deploy
-      - hello
+      - hello_world
       - --region=europe-west3
       - --source=.
       - --trigger-http
@@ -16,3 +16,4 @@ steps:
       - --security-level=secure-always
       - --ingress-settings=all
       - --no-allow-unauthenticated
+      - --service-account=helllo@yassine-337812.iam.gserviceaccount.com
