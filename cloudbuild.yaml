@@ -1,6 +1,6 @@
 steps:
-  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
-    args:
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  args:
       - gcloud
       - functions
       - deploy
@@ -17,6 +17,6 @@ steps:
       - --ingress-settings=all
       - --no-allow-unauthenticated
       - --service-account=helllo@yassine-337812.iam.gserviceaccount.com
-    logsBucket: 'gs://mylogsbucket'
-    options:
-      logging: CLOUD_LOGGING_ONLY
+logsBucket: 'gs://mylogsbucket'
+options:
+  logging: CLOUD_LOGGING_ONLY
