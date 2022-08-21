@@ -4,7 +4,7 @@ from flask import jsonify,render_template
 def hello(request) : 
     #  return jsonify(
     #      {
-    #          "Message":'zabi'
+    #          "Message":'Test'
     #      }) 
 
       return render_template('index.html')
